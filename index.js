@@ -21,7 +21,7 @@ async function fetchBinanceUpcomingListings() {
             link: `https://www.binance.com/en/support/announcement/${article.code}`
         }));
     } catch (error) {
-        console.error('Error fetching Binance listings:', error);
+        console.error('Error fetching api:', error);
         return [];
     }
 }
