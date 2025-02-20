@@ -1,0 +1,17 @@
+
+
+  bigFunction
+    1) should return an empty array when input is an empty array
+
+
+  0 passing (6ms)
+  1 failing
+
+  1) bigFunction
+       should return an empty array when input is an empty array:
+     ReferenceError: expect is not defined
+      at Context.<anonymous> (GoCodeo-index_bigFunction_test_9a43043d-6809-43b4-918b-1ccfedd2c638.test.ts:38:4)
+      at process.processImmediate (node:internal/timers:478:21)
+
+
+
